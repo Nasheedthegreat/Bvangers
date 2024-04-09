@@ -1,0 +1,44 @@
+/* 
+author: Joey;
+theme: webshop admin;
+version: 1.0;
+
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+ }
+
+ .wrapper{
+    border: 1px solid #000;
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+ }
+
+ /* header css */
+ .menu{
+   text-align: center;
+ }
+ .menu.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #333;
+    color: #fff;
+ }
+ .menu.ul li{
+    padding: 1%;
+    display: inline;
+ }
+ /* footer centeren */
+ .text-center{
+    text-align: center;
+ }
+
+ /* css footer */
+
+   
