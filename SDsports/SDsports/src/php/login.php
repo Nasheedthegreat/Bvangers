@@ -18,6 +18,7 @@
                 <li><a href="./producten.html">Alle Producten</a></li>
                 <li><a href="./php/shoppingcart.php">Mijn winkelmand</a></li>
                 <li><a href="./php/">Inloggen</a></li>
+                <li><a href="./php/register.php">Registreren</a></li> // Added registration link
             </ul>
         </nav>
     </header>
@@ -74,7 +75,21 @@
     <footer>
         <!-- Your footer content here -->
     </footer>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape") {
+                window.location.href = "./index.html";
+            }
+        });
+    </script>
 </body>
 </html>
+<?php
+if (isset($_SESSION['user_name'])) {
+    echo "<script>alert('You are logged in! You can now proceed to payment.');</script>";
+    // Add code here to display payment options or redirect to payment page
+}
+?>
 
 

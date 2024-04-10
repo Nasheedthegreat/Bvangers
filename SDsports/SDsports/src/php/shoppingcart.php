@@ -90,7 +90,7 @@ showCart();
 session_start();
 
 // Add the link to the winkelmand.css stylesheet
-echo '<link rel="stylesheet" type="text/css" href="winkelmand.css">';
+echo '<link rel="stylesheet" type="text/css" href="../winkelmand.css">';
 
 // Rest of the code...
 

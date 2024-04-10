@@ -44,11 +44,11 @@ showCart();
     <header>
         <nav>
             <ul>
-                <li><a href="index.html"><img src="assets/SDLOGO.png" alt="SD Logo"></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="producten.html">Alle Producten</a></li>
-                <li><a href="winkelwagen.html">Mijn winkelmand</a></li>
-                <li><a href="php\index.php">Inloggen</a></li>
+                <li><a href="./index.html"><img src="assets/SDLOGO.png" alt="SD Logo"></a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href=".//producten.html">Alle Producten</a></li>
+                <li><a href="./winkelwagen.html">Mijn winkelmand</a></li>
+                <li><a href="php/index.php">Inloggen</a></li>
             </ul>
         </nav>
     </header>

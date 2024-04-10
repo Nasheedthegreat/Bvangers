@@ -14,7 +14,7 @@
                 <li><a href="index.html"><img src="assets/SDLOGO.png" alt="SD Logo"></a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="producten.html">Alle Producten</a></li>
-                <li><a href="./php/shoppingcart.php">Mijn winkelmand</a></li>
+                <li><a href="Bvangers/SDsports/SDsports/src/winkelwagen.php">Mijn winkelmand</a></li>
                 <li><a href="./php/login.php">Inloggen</a></li>
             </ul>
         </nav>
